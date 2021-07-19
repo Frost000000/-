@@ -1,0 +1,3 @@
+<html>
+<div class="css-rainbow-text">CSS Rainbow Text</div>
+</html>
