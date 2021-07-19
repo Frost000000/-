@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>D.iK.iJ / JavaScript примеры / Скрипт случайного градиентного фона на CSS 3</title>
+</head>
+<br>Текущий градиент [<a href="javascript: randomfon();" class="pod">обновить</a>]:
+
+<span id="content">
+<style>
+/* Делаем фон на всю высоту экрана */
+html, body {min-height: 100%;}
+</style>
+
+<script>
+var rand0 = Math.round(Math.random()*365);
+var rand1 = Math.round(Math.random()*255);
+var rand2 = Math.round(Math.random()*255);
+var rand3 = Math.round(Math.random()*255);
+var rand4 = Math.round(Math.random()*255);
+var rand5 = Math.round(Math.random()*255);
+var rand6 = Math.round(Math.random()*255);
+var rand7 = Math.round(Math.random()*255);
+var rand8 = Math.round(Math.random()*255);
+var rand9 = Math.round(Math.random()*255);
+var rand10 = Math.round(Math.random()*255);
+var rand11 = Math.round(Math.random()*255);
+var rand12 = Math.round(Math.random()*255);
+
+var bgr = "linear-gradient("+rand0+"deg, rgba("+rand1+", "+rand2+", "+rand3+",0.5), rgba("+rand4+", "+rand5+", "+rand6+",0.5), rgba("+rand7+", "+rand8+", "+rand9+",0.5), rgba("+rand10+", "+rand11+", "+rand12+",0.5))";
+document.body.style.background = bgr;
+</script></span>
+
+<script type="text/javascript"><!--
+zabil("primer", bgr);
+function randomfon() {
+var rand0 = Math.round(Math.random()*365);
+var rand1 = Math.round(Math.random()*255);
+var rand2 = Math.round(Math.random()*255);
+var rand3 = Math.round(Math.random()*255);
+var rand4 = Math.round(Math.random()*255);
+var rand5 = Math.round(Math.random()*255);
+var rand6 = Math.round(Math.random()*255);
+var rand7 = Math.round(Math.random()*255);
+var rand8 = Math.round(Math.random()*255);
+var rand9 = Math.round(Math.random()*255);
+var rand10 = Math.round(Math.random()*255);
+var rand11 = Math.round(Math.random()*255);
+var rand12 = Math.round(Math.random()*255);
+var bgr = "linear-gradient("+rand0+"deg, rgba("+rand1+", "+rand2+", "+rand3+",0.5), rgba("+rand4+", "+rand5+", "+rand6+",0.5), rgba("+rand7+", "+rand8+", "+rand9+",0.5), rgba("+rand10+", "+rand11+", "+rand12+",0.5))";
+document.body.style.background = bgr;
+zabil("primer", bgr); }
+//--></script>
+<body>
+align center
+<p>Радуга-пропаганда, радуга-дуга.<br>
+Мороженым радуга<br>
+Радуга, радуга, растаю на твоих губах<br>
+Ты моя радуга-пропаганда,<br>
+Радуга-пропаганда, радуга-дуга.<br>
+<br>
+align center
+Эй, радуга-дуга, ты попутала берега<br>
+Это грустная страна, чёрно-белые тона<br>
+Эй, радуга-дуга, мы тебя бы запретили<br>
+Страдает сильно демография России<br>
+Радуга после дождя будет ещё ярче,<br>
+Всё будет так, как надо и никак иначе,<br>
+Я тебя больше не прячу, что это значит?<br>
+<br>
+Я стану для тебя мороженым радуга<br>
+Радуга, радуга, растаю на твоих губах<br>
+Ты моя радуга-пропаганда,<br>
+Радуга-пропаганда, радуга-дуга.<br>
+Мороженым радуга<br>
+Радуга, радуга, растаю на твоих губах<br>
+Ты моя радуга-пропаганда,<br>
+Радуга-пропаганда, радуга-дуга.
+</p>
+</body>
+</body>
+</html>
